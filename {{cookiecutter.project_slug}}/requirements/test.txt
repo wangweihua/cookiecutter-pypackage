@@ -1,0 +1,4 @@
+-r prod.txt
+
+{% if cookiecutter.use_pytest == 'y' -%}
+pytest==6.2.4{% endif %}
